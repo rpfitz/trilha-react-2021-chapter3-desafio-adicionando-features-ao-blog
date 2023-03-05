@@ -1,0 +1,79 @@
+.container {
+  img {
+    width: 100vw;
+  }
+
+  .post {
+    max-width: 720px;
+    margin: 5rem auto;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    > span,
+    > time {
+      margin-right: 1.5rem;
+      color: var(--gray-300);
+    }
+
+    .editedDate {
+      margin-top: 1rem;
+      color: var(--gray-300);
+    }
+
+    .session {
+      margin: 4rem auto;
+
+      h2 {
+        font-size: 2.25rem;
+        margin: 4rem 0;
+      }
+
+      p,
+      li {
+        margin-top: 1rem;
+        line-height: 1.5rem;
+
+        a {
+          color: var(--pink-500);
+        }
+      }
+    }
+
+    hr {
+      border: 1px solid var(--gray-200);
+      opacity: 0.1;
+    }
+
+    .navigation {
+      padding-top: 4rem;
+      margin-bottom: 4rem;
+
+      display: flex;
+
+      p {
+        font-size: 1.125rem;
+        margin-bottom: 0.5rem;
+      }
+
+      span {
+        font-weight: 600;
+        color: var(--pink-500);
+      }
+
+      .nextPost {
+        text-align: right;
+        margin-left: auto;
+        max-width: 300px;
+      }
+
+      .prevPost {
+        text-align: left;
+        margin-right: auto;
+        max-width: 300px;
+      }
+    }
+  }
+}

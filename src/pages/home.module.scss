@@ -1,0 +1,55 @@
+.container {
+  max-width: 700px;
+  margin: 3rem auto 0;
+
+  img {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    display: block;
+
+    margin-top: 3rem;
+    border-top: 1px solid var(--gray-700);
+
+    strong {
+      transition: color 0.2s;
+    }
+
+    &:hover strong {
+      color: var(--pink-500);
+    }
+  }
+
+  time,
+  span {
+    font-size: 0.9rem;
+    align-items: center;
+    color: var(--gray-300);
+  }
+
+  span {
+    margin-left: 1.5rem;
+  }
+
+  strong {
+    display: block;
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: var(--gray-300);
+    margin: 0.5rem 0 1.5rem;
+  }
+
+  button {
+    margin-top: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.125rem;
+    color: var(--pink-500);
+  }
+}
